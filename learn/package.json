@@ -3,8 +3,8 @@
     "cypress": "^14.0.2"
   },
   "scripts": {
+    "start": "python -m http.server 9000",
     "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "start": "python -m http.server 9000"
+    "cy:run": "cypress run"
   }
 }
